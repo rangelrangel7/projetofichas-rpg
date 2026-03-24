@@ -1,0 +1,141 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: radial-gradient(circle at top, #0a0f1f, #020617);
+  color: #cbd5f5;
+  padding: 16px;
+  font-size: 16px;
+}
+
+/* HEADER */
+h1 {
+  font-family: 'Bungee', sans-serif;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
+}
+
+/* BOTÕES */
+button {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #1e3a8a, #0f172a);
+  color: #e0f2fe;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #2563eb, #1e293b);
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}
+
+/* FORM */
+form {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  background: rgba(15, 23, 42, 0.9);
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid #1e3a8a;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+}
+
+label {
+  margin-top: 12px;
+  display: block;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #0f172a;
+  background: #020617;
+  color: #e2e8f0;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid #3b82f6;
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.4);
+}
+
+/* LISTA */
+#lista {
+  max-width: 650px;
+  margin: 20px auto;
+}
+
+/* CARD */
+#lista div {
+  background: linear-gradient(145deg, #020617, #0f172a);
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #1e3a8a;
+  transition: all 0.25s ease;
+}
+
+#lista div:hover {
+  transform: scale(1.02);
+  border-color: #3b82f6;
+}
+
+/* NOME DO PERSONAGEM */
+#lista h2 {
+  margin-bottom: 10px;
+  color: #60a5fa;
+}
+
+/* TEXTO */
+p {
+  font-size: 0.95rem;
+  color: #cbd5f5;
+}
+
+/* LINK */
+a {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #60a5fa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  form {
+    padding: 16px;
+  }
+}
