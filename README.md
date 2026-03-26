@@ -46,7 +46,7 @@ projetofichas-rpg/
 1. Baixe ou clone o repositório:
 
 ```
-git clone https://github.com/seu-usuario/projetofichas-rpg.git
+git clone https://github.com/rangelrangel7/projetofichas-rpg.git
 ```
 
 2. Abra a pasta do projeto
